@@ -45,5 +45,4 @@ python3 game.py
 # Note 
 > Please do not delete any image/file .
 
-> Hope you will enjoy the game ;)
-
+> Hope you will enjoy the game ;))
