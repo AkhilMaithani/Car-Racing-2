@@ -8,12 +8,19 @@ You can play it in any OS .</p>
     * Python 
     * Pygame
 
-**In windows / Mac**
+**In windows**
 
 * You can download python from here [Python](https://www.python.org/downloads/ "https://www.python.org/downloads/")
 
 ```
 pip install pygame
+```
+**In Mac**
+
+* You can download python from here [Python](https://www.python.org/downloads/ "https://www.python.org/downloads/")
+
+```
+pip3 install pygame
 ```
 
 **In Linux**
