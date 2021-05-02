@@ -8,7 +8,7 @@ You can play it in any OS .</p>
     * Python 
     * Pygame
 
-**In windows**
+**In windows / Mac**
 
 * You can download python from here [Python](https://www.python.org/downloads/ "https://www.python.org/downloads/")
 
@@ -16,7 +16,7 @@ You can play it in any OS .</p>
 pip install pygame
 ```
 
-**In Linux / Mac**
+**In Linux**
 
 ```
 sudo apt install python
