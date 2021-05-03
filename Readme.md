@@ -26,7 +26,7 @@ pip3 install pygame
 **In Linux**
 
 ```
-sudo apt install python
+sudo apt install python3
 ```
 ```
 pip3 install pygame
