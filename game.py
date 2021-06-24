@@ -417,7 +417,7 @@ def button(x_button,y_button,msg,color1,color2,color3,length_b=100,widht_b=30):
 	message(msg,x_button+5,y_button+5,color2)
 	mouse = pygame.mouse.get_pos()
 	click = pygame.mouse.get_pressed()
-	if x_button<mouse[0]<x_button+100 and y_button<mouse[1]<y_button+30:
+	if x_button<mouse[0]<x_button+length_b and y_button<mouse[1]<y_button+widht_b:
 		pygame.draw.rect(game_display,color3,[x_button,y_button,length_b,widht_b])
 		message(msg,x_button+5,y_button+5,color2)	
 		if click == (1,0,0) and msg == " <- Back ":
