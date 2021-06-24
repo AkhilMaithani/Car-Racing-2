@@ -535,13 +535,13 @@ def player2_game_loop():
 	obs_speed = 1
 	obs_w = 100
 	obs_h = 100
-	level = 1
+	
 
 	gameExit = False
 
 	while not gameExit:
 		
-		global x_car,y_car,x_change,y_change,score_1,score_2
+		global x_car,y_car,x_change,y_change,score_1,score_2,speed
 			
 		game_display.fill(black)
 		game_display.blit(road_image,(0,0))
@@ -577,7 +577,7 @@ def player2_game_loop():
 					x_change = 0 
 
 			if event.type == pygame.KEYUP:
-				if event.type == pygame.K_RIGHT or pygame.K_LEFT or pygame.K_UP or pygame.K_DOWN:
+				if event.key == pygame.K_RIGHT or pygame.K_LEFT or pygame.K_UP or pygame.K_DOWN:
 					x_change = 0
 					y_change = 0
 
@@ -657,13 +657,12 @@ def player1_game_loop():
 	obs_speed = 1
 	obs_w = 100
 	obs_h = 100
-	level = 1
-
+	
 	gameExit = False
 
 	while not gameExit:
 		
-		global x_car,y_car,x_change,y_change,score_1,score_2
+		global x_car,y_car,x_change,y_change,score_1,score_2,speed
 			
 		game_display.fill(black)
 		game_display.blit(road_image,(0,0))
@@ -699,7 +698,7 @@ def player1_game_loop():
 					x_change = 0 
 
 			if event.type == pygame.KEYUP:
-				if event.type == pygame.K_RIGHT or pygame.K_LEFT or pygame.K_UP or pygame.K_DOWN:
+				if event.key == pygame.K_RIGHT or pygame.K_LEFT or pygame.K_UP or pygame.K_DOWN:
 					x_change = 0
 					y_change = 0
 
@@ -785,7 +784,7 @@ def main_game_loop():
 
 	while not gameExit:
 		
-		global x_car,y_car,x_change,y_change,score
+		global x_car,y_car,x_change,y_change,score,speed
 			
 		game_display.fill(black)
 		game_display.blit(road_image,(0,0))
@@ -821,7 +820,7 @@ def main_game_loop():
 					x_change = 0 
 
 			if event.type == pygame.KEYUP:
-				if event.type == pygame.K_RIGHT or pygame.K_LEFT or pygame.K_UP or pygame.K_DOWN:
+				if event.key == pygame.K_RIGHT or pygame.K_LEFT or pygame.K_UP or pygame.K_DOWN:
 					x_change = 0
 					y_change = 0
 
