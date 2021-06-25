@@ -599,7 +599,7 @@ def player2_game_loop():
 	
 		message(f"Score : {score_2}",20,35,red,True,True,"small")
 		
-		if x_car<0 or x_car>window_width-car_width:
+		if x_car<0 or x_car+car_width>window_width:
 			finished()
 
 		if obs_start_y>window_height: 
@@ -720,7 +720,7 @@ def player1_game_loop():
 	
 		message(f"Score : {score_1}",20,35,red,True,True,"small")
 		
-		if x_car<0 or x_car>window_width-car_width:
+		if x_car<0 or x_car+car_width>window_width:
 			now_turn_2()
 
 
@@ -842,7 +842,7 @@ def main_game_loop():
 	
 		message(f"Score : {score}",20,35,red,True,True,"small")
 		
-		if x_car<0 or x_car>window_width-car_width:
+		if x_car<0 or x_car+car_width>window_width:
 			over()
 
 
