@@ -1,9 +1,11 @@
 # Car Racing 2
 
-<p>It is basic Car Racing Game made in Python using Pygame,
-You can play it in any OS .</p>
+It is basic Car Racing Game made in Python using Pygame, You can play it in any OS.
 
-# Dependencies
+&nbsp;
+
+___
+## Dependencies
 * These must be installed in your PC/Laptop
     * Python 
     * Pygame
@@ -31,12 +33,25 @@ sudo apt install python3
 ```
 pip3 install pygame
 ```
-# Images
-![Intro Page](intro_page.png)
 
-![Instructions](Instructions.png)
+&nbsp;
 
-# How to Play
+___
+## Images
+&nbsp;
+
+![Intro Page](intro_page.png "Intro page image")
+
+&nbsp;
+
+![Instructions](Instructions.png "Instruction page image")
+
+
+&nbsp;
+
+___
+## How to Play
+
 * Just open the __CMD__ in _Windows_ and __Terminal__ in _Mac / Linux_
 
 **In Windows**
@@ -48,7 +63,11 @@ python game.py
 python3 game.py
 ```
 
-# Note 
-> Please do not delete any image/file .
+&nbsp;
 
-> Hope you will enjoy the game ;))
+___
+## Important Notes:
+
+* Please do not delete any image/file .
+
+* Hope you will enjoy the game ;))
