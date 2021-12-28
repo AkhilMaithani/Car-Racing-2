@@ -68,6 +68,6 @@ python3 game.py
 ___
 ## Important Notes:
 
-* Please do not delete any image and file .
+* Please do not delete any image and file.
 
-* Hope you will enjoy the game ;))
+* Hope you will enjoy the game!.
