@@ -2,9 +2,13 @@
 
 It is basic Car Racing Game made in Python using Pygame, You can play it in any OS.
 
-&nbsp;
+<p>
+   <img src="https://img.shields.io/badge/%20-Python-blue" alt="Python">&nbsp;
+   <img src="https://img.shields.io/badge/%20-Pygame-orange" alt="Pygame">
+</p>
 
-___
+<hr>
+
 ## Dependencies
 * These must be installed in your PC/Laptop
     * Python 
@@ -34,9 +38,8 @@ sudo apt install python3
 pip3 install pygame
 ```
 
-&nbsp;
+<hr>
 
-___
 ## Images
 &nbsp;
 
@@ -46,10 +49,8 @@ ___
 
 ![Instructions](Instructions.png "Instruction page image")
 
+<hr>
 
-&nbsp;
-
-___
 ## How to Play
 
 * Just open the __CMD__ in _Windows_ and __Terminal__ in _Mac / Linux_
@@ -63,9 +64,8 @@ python game.py
 python3 game.py
 ```
 
-&nbsp;
+<hr>
 
-___
 ## Important Notes:
 
 * Please do not delete any image and file.
